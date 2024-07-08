@@ -7,9 +7,8 @@
 
 html,
 body {
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -39,6 +38,64 @@ iframe#tela {
   top: 80px;
   left: 22px;
   height: 471px;
-  width: 268px;
-  border-radius: 2px;
+  width: 267px;
+  background-color: white;
+}
+
+section#redes-sociais {
+  text-align: right;
+}
+
+section#redes-sociais img {
+  width: 55px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+section#redes-sociais img {
+  transition: all 0.5s;
+  border: 5px solid transparent;
+}
+
+section#redes-sociais img#home:hover {
+  border: 5px solid rgba(128, 128, 128, 0.679);
+  border-radius: 50%;
+  transform: translate(0px, -3px);
+  transition: transform .5s, all .5s;
+}
+
+section#redes-sociais img#youtube:hover {
+  border: 5px solid #fe00005c;
+  border-radius: 50%;
+  transform: translate(0px, -3px);
+  transition: transform .5s, all .5s;
+}
+
+section#redes-sociais img#github:hover {
+  border: 5px solid #159234b2;
+  border-radius: 50%;
+  transform: translate(0px, -3px);
+  transition: transform .5s, all .5s;
+}
+
+section#redes-sociais img#instagram:hover {
+  border: 5px solid #cd2e95;
+  border-radius: 50%;
+  transform: translate(0px, -3px);
+  transition: transform .5s, all .5s;
+}
+
+section#redes-sociais img#twitter:hover {
+  border: 5px solid #58aee7b5;
+  border-radius: 50%;
+  transform: translate(0px, -3px);
+  transition: transform .5s, all .5s;
+}
+
+section#redes-sociais img#facebook:hover {
+  border: 5px solid #44629db3;
+  border-radius: 50%;
+  transform: translate(0px, -3px);
+  transition: transform .5s, all .5s;
 }
